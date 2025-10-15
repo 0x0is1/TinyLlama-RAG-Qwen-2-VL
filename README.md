@@ -1,5 +1,6 @@
 # TinyLlama-RAG-Qwen-2-VL — OCR → Embeddings → RAG Notebook
 [Colab Notebook](https://colab.research.google.com/drive/1Fbw_rvjfWAUFFwpoyLkVgtmQ8Wlz3H5m?usp=sharing&authuser=1#scrollTo=JeG0cQsHMLNx)
+
 Project: AI Engineering Intern Assessment — end-to-end pipeline that extracts text from scanned images/PDFs, converts text to embeddings, stores them in FAISS, and answers queries with a small LLM (TinyLlama) using retrieval-augmented generation (RAG).
 
 This repository contains:
@@ -57,3 +58,4 @@ On Google Colab
 
 
 - Run the notebook cells sequentially. After creating the FAISS index, call `query_document("Your question")` to get answers or `query = "Summarize this document"` as in the example cell.
+
